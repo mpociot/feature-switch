@@ -1,0 +1,34 @@
+{
+    "name": "mpociot/feature-switch",
+    "license": "MIT",
+    "description": "A feature switcher for PHP",
+    "keywords": [
+        "feature switch",
+        "feature toggle"
+    ],
+    "homepage": "http://github.com/mpociot/feature-switch",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "m.pociot@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "illuminate/support": "~5.0",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mpociot\\FeatureSwitch": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mpociot\\FeatureSwitch\\Tests\\": "tests/"
+        }
+    }
+}
